@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+:root {
+  --ff-primary: "Poppins", "Inter", "Noto Sans", sans-serif;
+  --ff-secondary: "Noto Sans", "Poppins", sans-serif;
+
+  --clr-primary: hsl(0, 0%, 100%);
+  --clr-secondary: hsl(207, 90%, 54%);
+  --clr-accent: hsl(0, 0%, 30%);
+}
+
+/* User Preference : Dark Mode  */
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --clr-primary: hsl(0, 0%, 10%);
+    --clr-secondary: hsl(207, 90%, 34%);
+    --clr-accent: hsl(0, 0%, 70%);
+  }
+}
+
+/* General Styles */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+
+ul[role="list"],
+ol[role="list"],
+ul,
+ol {
+  list-style: none;
+}
+
+html {
+  hanging-punctuation: first last; /* Not supported in chrome */
+}
+
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  text-rendering: optimizeSpeed;
+  line-height: 1.6;
+}
+
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+picture,
+svg,
+video {
+  display: block;
+  max-width: 100%;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  font-style: italic;
+  background-repeat: no-repeat;
+  background-size: cover;
+  shape-margin: 1rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-wrap: balance;
+}
+
+p {
+  max-width: 75ch;
+  text-wrap: pretty;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  :has(:target) or html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 2rem;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
