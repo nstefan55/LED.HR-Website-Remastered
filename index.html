@@ -27,10 +27,10 @@
       referrerpolicy="no-referrer"
     />
   </head>
-  <body class="mt-5">
+  <body class="mt-5 position-relative">
     <!-- Navbar  -->
 
-    <header>
+    <header id="header">
       <nav
         class="navbar navbar-expand-lg bg-dark p-2 fixed-top"
         data-bs-theme="dark"
@@ -224,6 +224,7 @@
           </h3>
         </div>
       </section>
+
       <section
         class="sticky-top hero hero__background d-flex align-items-center text-light"
         id="led__fountains"
@@ -255,6 +256,7 @@
           </h3>
         </div>
       </section>
+
       <section
         class="hero hero__background d-flex align-items-center text-light"
         id="led__panels"
@@ -312,9 +314,9 @@
         </div>
       </section>
 
-      <!-- Information Section -->
+      <!-- Information Section  -->
 
-      <section id="LED" class="p-5">
+      <section id="LED" class="info-showcase p-5">
         <div class="container">
           <div class="row gap-5 gap-lg-1">
             <div id="card__led" class="col-lg">
@@ -434,7 +436,104 @@
         </div>
       </section>
     </main>
-    <footer></footer>
+    <footer id="footer" class="p-5 text-bg-dark">
+      <div class="container text-center">
+        <div class="row align-items-center g-sm-5 g-md-3">
+          <div class="col-lg text-center">
+            <h3 class="footer__title mb-3">Kontakt</h3>
+            <p class="footer__info">
+              <i class="fa-solid fa-envelope"></i>
+              <span>email:</span>
+              <a href="mailto: info@led.hr" class="footer__link">info@led.hr</a>
+            </p>
+            <p class="footer__info">
+              <i class="fa-solid fa-phone"></i>
+              <span>tel:</span>
+              <a href="tel: +38516556372" class="footer__link"
+                >+385 1 6556 372</a
+              >
+            </p>
+            <p class="footer__info">
+              <span>mob:</span>
+              <a href="tel: 0913696028" class="footer__link">091 3696 028</a>
+            </p>
+            <p class="footer__info lead">
+              <i class="fa-solid fa-business-time"></i>
+              <span>pon-pet: 8:30-16:30</span>
+            </p>
+            <p class="footer__info">
+              <i class="fa-solid fa-person-walking"></i>
+              <span>Potražite nas na</span>
+              <a
+                class="footer__link"
+                href="https://www.facebook.com/profile.php?id=100068343401207"
+                target="_blank"
+                >Facebook-u</a
+              >
+            </p>
+          </div>
+          <div class="col-lg text-center">
+            <h3 class="footer__title mb-3">Tvrtka</h3>
+            <p class="footer__info lead">
+              <i class="fa-solid fa-building"></i>
+              <span>Altasys j.d.o.o.</span>
+            </p>
+            <div class="footer__info lead mb-3">
+              <span class="text-uppercase">oib:</span>
+              <span>26941634270</span>
+            </div>
+            <p class="footer__info">
+              <i class="fa-solid fa-location-dot"></i>
+              <span
+                >Antuna Štrbana 12,
+                <span class="text-uppercase">hr</span>&minus; 10000 Zagreb</span
+              >
+            </p>
+            <div>
+              <a href="#" class="footer__link">Izjava o privatnosti</a>
+            </div>
+            <div>
+              <a href="#" class="footer__link">Izjava o sigurnosti</a>
+            </div>
+            <div>
+              <a href="#" class="footer__link">Više informacija o nama</a>
+            </div>
+          </div>
+          <div class="col-lg text-center">
+            <div class="d-flex align-items-center text-center mb-4">
+              <i class="fa-solid fa-magnifying-glass fs-4 px-2"></i>
+              <h2 class="footer__title">Tražilica</h2>
+            </div>
+            <div class="input-group mb-3">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Što Vas zanima ?"
+                aria-label="Što Vas zanima ?"
+                aria-describedby="search-button"
+              />
+              <button class="btn btn-warning" type="button" id="search-button">
+                Search
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container text-center">
+        <div class="row mt-5">
+          <p class="lead">
+            Copyright &copy; 2024 Altasys j.d.o.o &middot; Sva prava pridržana
+            &middot;
+          </p>
+        </div>
+      </div>
+
+      <!-- Return Arrow -->
+
+      <a href="#" class="returnArrow hidden position-fixed bottom-0 end-0 p-5">
+        <i class="fa-solid fa-circle-arrow-up h1"></i>
+      </a>
+    </footer>
   </body>
   <script type="module" src="scripts/app.js"></script>
 </html>
