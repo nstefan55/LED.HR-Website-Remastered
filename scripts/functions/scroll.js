@@ -1,14 +1,14 @@
-export function stickyTop() {
-  window.onscroll = function () {
-    let scrollPos = window.scrollY;
-    let section = document.getElementById("led__fountains");
+export function scrollHeader() {
+  window.addEventListener("scroll", function () {
+    const nav = document.querySelector(".js-navbar");
+    const scrollPosition = window.scrollY;
 
-    if (scrollPos > 2000) {
-      section.classList.remove("sticky-top");
+    if (scrollPosition > 0) {
+      nav.classList.add("scrolled");
     } else {
-      section.classList.add("sticky-top");
+      nav.classList.remove("scrolled");
     }
-  };
+  });
 }
 
 export function returnPositionArrow() {

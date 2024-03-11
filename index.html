@@ -27,12 +27,12 @@
       referrerpolicy="no-referrer"
     />
   </head>
-  <body class="mt-5 position-relative">
+  <body class="position-relative">
     <!-- Navbar  -->
 
     <header id="header">
       <nav
-        class="navbar navbar-expand-lg bg-dark p-2 fixed-top"
+        class="js-navbar navbar navbar-expand-lg p-2 fixed-top"
         data-bs-theme="dark"
       >
         <div class="container">
@@ -316,7 +316,7 @@
 
       <!-- Information Section  -->
 
-      <section id="LED" class="info-showcase p-5">
+      <section id="LED" class="info-showcase p-5 text-bg-light">
         <div class="container">
           <div class="row gap-5 gap-lg-1">
             <div id="card__led" class="col-lg">
@@ -345,7 +345,7 @@
                     aria-label="More Information"
                     aria-labelledby="#card__led"
                   >
-                    <button class="btn btn-primary">
+                    <button class="more-info-btn btn btn-primary">
                       Opširnije
                       <i class="fa-solid fa-arrow-right-to-bracket"></i>
                     </button>
@@ -380,7 +380,7 @@
                     aria-label="More Information"
                     aria-labelledby="#card__primjena"
                   >
-                    <button class="btn btn-primary">
+                    <button class="more-info-btn btn btn-primary">
                       Opširnije
                       <i class="fa-solid fa-arrow-right-to-bracket"></i>
                     </button>
@@ -409,7 +409,7 @@
                     aria-label="More Information"
                     aria-labelledby="#card__financiranje"
                   >
-                    <button class="btn btn-primary">
+                    <button class="more-info-btn btn btn-primary">
                       Opširnije
                       <i class="fa-solid fa-arrow-right-to-bracket"></i>
                     </button>
@@ -436,6 +436,9 @@
         </div>
       </section>
     </main>
+
+    <!-- Footer -->
+
     <footer id="footer" class="p-5 text-bg-dark">
       <div class="container text-center">
         <div class="row align-items-center g-sm-5 g-md-3">
@@ -501,18 +504,22 @@
           </div>
           <div class="col-lg text-center">
             <div class="d-flex align-items-center text-center mb-4">
-              <i class="fa-solid fa-magnifying-glass fs-4 px-2"></i>
+              <i class="fa-solid fa-magnifying-glass fs-4 px-2 mb-2"></i>
               <h2 class="footer__title">Tražilica</h2>
             </div>
-            <div class="input-group mb-3">
+            <div class="search input-group mb-3">
               <input
                 type="text"
-                class="form-control"
+                class="form-control search-input js-search-input"
                 placeholder="Što Vas zanima ?"
                 aria-label="Što Vas zanima ?"
                 aria-describedby="search-button"
               />
-              <button class="btn btn-warning" type="button" id="search-button">
+              <button
+                class="search__btn btn btn-warning"
+                type="button"
+                id="search-button"
+              >
                 Search
               </button>
             </div>
@@ -535,7 +542,7 @@
       </a>
     </footer>
   </body>
-  <script type="module" src="scripts/app.js"></script>
+  <script type="module" src="scripts/main.js"></script>
 </html>
 
 <!-- Powered by EnVizion -->

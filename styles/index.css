@@ -1,4 +1,17 @@
-/* --- Navbar --- */
+/* --- Header Navbar --- */
+
+.navbar {
+  transition: all 0.2s ease;
+}
+
+#header .scrolled {
+  height: 80px;
+  background-color: hsla(210, 11%, 15%, 0.933);
+}
+
+.navbar {
+  background-color: var(--clr-primary);
+}
 
 .navbar-brand {
   text-transform: uppercase;
@@ -136,6 +149,14 @@ nav .nav-link.text-light:hover {
   font-weight: 500;
 }
 
+.more-info-btn {
+  transition: all 0.15s ease-in-out;
+}
+
+.more-info-btn:hover {
+  transform: scale(1.05);
+}
+
 /* --- Footer --- */
 
 footer .grid {
@@ -165,6 +186,12 @@ footer .wrapper {
 .returnArrow.hidden {
   opacity: 0;
 }
+
+.search-input {
+  transition: all 0.2s ease-in-out;
+}
+
+/* Media Queries */
 
 /* Dropdown Menu Hover on lg screens and above */
 
