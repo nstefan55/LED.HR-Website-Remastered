@@ -4,11 +4,6 @@
   transition: all 0.2s ease;
 }
 
-#header .scrolled {
-  height: 80px;
-  background-color: hsla(210, 11%, 15%, 0.933);
-}
-
 .navbar {
   background-color: var(--clr-primary);
 }
@@ -141,6 +136,7 @@ nav .nav-link.text-light:hover {
 
 .card-title {
   border: 2px solid var(--clr-accent);
+  display: inline-block;
   padding: 0.6rem 1.2rem;
   border-radius: 10px;
 }
