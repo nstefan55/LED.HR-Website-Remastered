@@ -1,0 +1,33 @@
+/* --- Footer --- */
+
+footer .grid {
+  --bs-columns: 3;
+}
+
+footer .wrapper {
+  align-items: center;
+}
+
+.footer__link {
+  color: #fff;
+  opacity: 0.7;
+  transition: all 0.2s ease;
+  margin-left: 0.25rem;
+}
+
+.footer__link:hover {
+  opacity: 1;
+}
+
+.returnArrow {
+  opacity: 1;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.returnArrow.hidden {
+  opacity: 0;
+}
+
+.search-input {
+  transition: all 0.2s ease-in-out;
+}
