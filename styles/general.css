@@ -5,10 +5,18 @@
   --ff-secondary: "Noto Sans", "Poppins", sans-serif;
 
   --clr-primary: hsl(0, 0%, 100%);
-  --clr-secondary: hsl(207, 90%, 54%);
+  --clr-secondary: #0d6efd;
   --clr-accent: hsl(0, 0%, 30%);
 
-  --clr-glow: hsl(60, 100%, 50%);
+  --clr-gray: #adb5bd;
+
+  --clr-glow: #ffd900;
+
+  --clr-teal-green: #20c997;
+
+  --clr-green: #198754;
+
+  --clr-red: #dc3545;
 }
 
 /* User Preference : Dark Mode  */
@@ -16,7 +24,7 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --clr-primary: hsl(210, 11%, 15%);
-    --clr-secondary: hsl(207, 90%, 34%);
+    --clr-secondary: #0d6efd;
     --clr-accent: hsl(0, 0%, 70%);
   }
 }

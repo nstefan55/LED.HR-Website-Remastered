@@ -20,11 +20,34 @@
 
 .heading__title {
   font-weight: 600;
-  letter-spacing: 0.5px;
 }
 
-.img {
-  width: 40%;
+#led-prednosti .card {
+  border: 2px solid var(--clr-teal-green);
+  border-radius: 10px;
+  transition: background-color, color 0.2s ease, transform 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+#led-prednosti .card:hover {
+  background-color: var(--clr-teal-green);
+  color: #fff;
+  transform: translateY(-5px);
+  text-shadow: 1px 1px 2px #000, 0 0 1em #00000087, 0 0 0.2em #00000085;
+}
+
+#led-nedostaci .card {
+  border: 2px solid var(--clr-red);
+  border-radius: 10px;
+  transition: background-color, color 0.2s ease, transform 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+#led-nedostaci .card:hover {
+  background-color: var(--clr-red);
+  color: #fff;
+  transform: translateY(-5px);
+  text-shadow: 1px 1px 2px #000, 0 0 1em #00000087, 0 0 0.2em #00000085;
 }
 
 /* Sidebar */
