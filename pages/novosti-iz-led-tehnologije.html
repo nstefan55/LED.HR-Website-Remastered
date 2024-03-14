@@ -6,10 +6,10 @@
     <meta description="LED.HR - Profesionalna Rasvjeta" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>LED.HR - Profesionalna Rasvjeta</title>
-    <link rel="stylesheet" href="styles/general.css" />
-    <link rel="stylesheet" href="styles/header & footer/header.css" />
-    <link rel="stylesheet" href="styles/header & footer/footer.css" />
-    <link rel="stylesheet" href="styles/index.css" />
+    <link rel="stylesheet" href="../styles/general.css" />
+    <link rel="stylesheet" href="../styles/header & footer/header.css" />
+    <link rel="stylesheet" href="../styles/header & footer/footer.css" />
+    <link rel="stylesheet" href="../styles/česta-pitanja.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -29,7 +29,7 @@
       referrerpolicy="no-referrer"
     />
   </head>
-  <body class="position-relative">
+  <body>
     <!-- Navbar  -->
 
     <header id="header">
@@ -39,7 +39,7 @@
         data-bs-theme="dark"
       >
         <div class="container">
-          <a class="navbar-brand mb-0 h1 text-light fs-2" href="index.html"
+          <a class="navbar-brand mb-0 h1 text-light fs-2" href="../index.html"
             ><span><i class="fa-solid fa-lightbulb mx-1"></i></span>Led.Hr</a
           >
           <button
@@ -66,23 +66,23 @@
                 >
                 <ul class="dropdown-menu">
                   <li>
-                    <a href="#LED" class="dropdown-item">Što je LED ?</a>
+                    <a href="./led.html" class="dropdown-item">Što je LED ?</a>
                   </li>
                   <li>
                     <a
-                      href="./pages/prednosti-led-rasvjete.html"
+                      href="./prednosti-led-rasvjete.html"
                       class="dropdown-item"
                       >Prednosti LED rasvjete</a
                     >
                   </li>
                   <li>
-                    <a href="./pages/česta-pitanja.html" class="dropdown-item"
+                    <a href="./česta-pitanja.html" class="dropdown-item"
                       >Česta pitanja</a
                     >
                   </li>
                   <li>
                     <a
-                      href="./pages/novosti-iz-led-tehnologije.html"
+                      href="./novosti-iz-led-tehnologije.html"
                       class="dropdown-item"
                       >Novosti iz LED tehnologije</a
                     >
@@ -212,7 +212,10 @@
               </li>
             </div>
           </div>
-          <a href="index.html" class="d-none d-xl-block text-decoration-none">
+          <a
+            href="../index.html"
+            class="d-none d-xl-block text-decoration-none"
+          >
             <h2 class="fs-5 text-warning text-nowrap">
               Profesionalna LED rasvjeta
             </h2>
@@ -221,232 +224,124 @@
       </nav>
     </header>
 
-    <main>
-      <!-- Hero Showcase -->
-      <section
-        class="hero hero__background d-flex align-items-center text-light"
-        id="led__pools"
-      >
-        <div class="container">
-          <h1 class="hero__heading text-shadow-4 text-md-nowrap">
-            <span class="text-uppercase">led</span>
-            rasvjeta za bazene
-          </h1>
-          <h3 class="hero__heading-text text-shadow-4 text-warning">
-            Podvodna <span class="text-uppercase">led</span> rasvjeta
-            <span class="text-uppercase">ip</span>68
-          </h3>
-        </div>
-      </section>
+    <!-- Page Nav -->
+    <div class="ps-5 page-nav">
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item">
+            <a class="breadcrumb-link" href="../index.html"
+              ><span class="text-uppercase">led</span><span> rasvjeta</span></a
+            >
+          </li>
+          <li class="breadcrumb-item active">
+            Koje su prednosti <span class="text-uppercase">led</span> rasvjete ?
+          </li>
+        </ol>
+      </nav>
+    </div>
 
-      <section
-        class="sticky-top hero hero__background d-flex align-items-center text-light"
-        id="led__fountains"
-      >
-        <div class="container">
-          <h1 class="hero__heading text-shadow-4 text-md-nowrap">
-            <span class="text-uppercase">led</span>
-            rasvjeta za fontane
+    <!-- Main Content -->
+    <div class="d-flex flex-column flex-xl-row">
+      <main class="ps-5 main pe-4">
+        <div class="heading d-flex align-items-center pt-3">
+          <i class="heading__icon fa-regular fa-lightbulb me-3 h1"></i>
+          <h1 class="heading__title">
+            Prednosti <span class="text-uppercase">led</span> rasvjete
           </h1>
-          <h3 class="hero__heading-text text-shadow-4 text-warning">
-            Podvodna <span class="text-uppercase">led</span> rasvjeta
-            <span class="text-uppercase">ip</span>68
-          </h3>
         </div>
-      </section>
+        <hr class="border border-warning border-1 opacity-25" />
+      </main>
 
-      <section
-        class="hero hero__background d-flex align-items-center text-light"
-        id="led__markets"
-      >
-        <div class="container">
-          <h1 class="hero__heading text-shadow-4 text-md-nowrap">
-            <span class="text-uppercase">led</span>
-            rasvjeta za trgovine
-          </h1>
-          <h3 class="hero__heading-text text-shadow-4 text-warning">
-            Podvodna <span class="text-uppercase">led</span> rasvjeta
-            <span class="text-uppercase">ip</span>68
-          </h3>
+      <!-- Sidebar -->
+      <aside class="sidebar ps-4 pe-4">
+        <div class="d-flex align-items-center text-center mb-4">
+          <i class="fa-solid fa-magnifying-glass fs-4 px-2 mb-2"></i>
+          <h2 class="footer__title">Tražilica</h2>
         </div>
-      </section>
-
-      <section
-        class="hero hero__background d-flex align-items-center text-light"
-        id="led__panels"
-      >
-        <div class="container">
-          <h1 class="hero__heading text-shadow-4 text-md-nowrap">
-            <span class="text-uppercase">led</span>
-            paneli
-          </h1>
-          <h4 class="hero__heading-text text-shadow-4 text-warning">
-            Elegantno rješenje za rasvjetu ureda, trgovina i ostalih radnih
-            prostora
-          </h4>
-          <a
-            href="./pages/led-paneli.html"
+        <div class="d-flex search input-group mb-5">
+          <input
+            type="text"
+            class="form-control flex-grow-1 search-input js-search-input"
+            placeholder="Što Vas zanima ?"
+            aria-label="Što Vas zanima ?"
+            aria-describedby="search-button"
+          />
+          <button
+            class="search__btn btn btn-warning"
             type="button"
-            class="text-decoration-none"
-            aria-label="More Information"
-            aria-labelledby="#led__panels"
+            id="search-button"
           >
-            <button class="btn btn-lg btn-primary mt-3">Opširnije</button>
+            Search
+          </button>
+        </div>
+        <div class="text-center mb-5">
+          <h5>Želite nas direktno kontaktirati ?</h5>
+          <a
+            class="contact-link text-decoration-none text-primary"
+            href="../pages/"
+          >
+            <h5>Pošaljite nam Upit.</h5>
           </a>
         </div>
-      </section>
 
-      <section
-        class="hero hero__background d-flex align-items-center text-light"
-        id="led__reflectors-sport"
-      >
-        <div class="container">
-          <h1 class="hero__heading text-shadow-4 text-md-nowrap">
-            <span class="text-uppercase">led</span>
-            reflektori za sportske terene
-          </h1>
-          <h4 class="hero__heading-text text-shadow-4 text-warning">
-            <span class="text-uppercase">led</span>
-            reflektori najnovije generacije
-          </h4>
-        </div>
-      </section>
-
-      <section
-        class="hero hero__background d-flex align-items-center text-light"
-        id="led__reflectors-football"
-      >
-        <div class="container">
-          <h1 class="hero__heading text-shadow-4 text-md-nowrap">
-            <span class="text-uppercase">led</span>
-            reflektori za nogometne stadione
-          </h1>
-          <h4 class="hero__heading-text text-shadow-4 text-warning">
-            <span class="text-uppercase">led</span>
-            reflektori najnovije generacije
-          </h4>
-        </div>
-      </section>
-
-      <!-- Information Section  -->
-
-      <section id="LED" class="info-showcase p-5 text-bg-light">
-        <div class="container">
-          <div class="row gap-5 gap-lg-1">
-            <div id="card__led" class="col-lg">
-              <div class="card h-100 text-center text-bg-dark">
-                <img
-                  class="card-img-top"
-                  src="./images/led.jpg"
-                  alt="led image"
-                />
-                <div class="card-body">
-                  <h3 class="card-title">
-                    Što je <span class="text-uppercase">led</span> ?
-                  </h3>
-                  <p class="card-text">
-                    Što je <span class="text-uppercase">led</span> ? Koje su
-                    prednosti <span class="text-uppercase">led</span> rasvjete ?
-                    Ima li nedostataka ? Koliko uštede mogu očekivati zamjenom
-                    klasične rasvjete ?
-                  </p>
-                  <a
-                    href="./pages/led.html"
-                    type="button"
-                    class="text-decoration-none"
-                    aria-label="More Information"
-                    aria-labelledby="#card__led"
-                  >
-                    <button class="more-info-btn btn btn-primary">
-                      Opširnije
-                      <i class="fa-solid fa-arrow-right-to-bracket"></i>
-                    </button>
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div id="card__primjena" class="col-lg">
-              <div class="card h-100 text-center text-bg-dark">
-                <img
-                  class="card-img-top"
-                  src="./images/led-2.jpg"
-                  alt="led image"
-                />
-                <div class="card-body">
-                  <h3 class="card-title">
-                    Primjena <span class="text-uppercase">led</span> rasvjete
-                  </h3>
-                  <p class="card-text">
-                    Gdje se sve može primjeniti
-                    <span class="text-uppercase">led</span> rasvjeta i zašto ?
-                    Gdje su prednosti najizraženije? Nakon koliko vremena se
-                    isplati investicija u
-                    <span class="text-uppercase">led</span> rasvjetu?
-                  </p>
-                  <a
-                    href="#"
-                    type="button"
-                    class="text-decoration-none"
-                    aria-label="More Information"
-                    aria-labelledby="#card__primjena"
-                  >
-                    <button class="more-info-btn btn btn-primary">
-                      Opširnije
-                      <i class="fa-solid fa-arrow-right-to-bracket"></i>
-                    </button>
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div id="card__primjena" class="col-lg">
-              <div class="card h-100 text-center text-bg-dark">
-                <img
-                  class="card-img-top"
-                  src="./images/financial.jpg"
-                  alt="led image"
-                />
-                <div class="card-body">
-                  <h3 class="card-title">Financiranje</h3>
-                  <p class="card-text">
-                    Koji su proizvodi<span class="text-uppercase"> led</span>
-                    rasvjete dostupni? Kako odabrati pravu
-                    <span class="text-uppercase"> led</span> rasvjetu za vaše
-                    potrebe? Koje su karakteristike različitih vrsta.
-                  </p>
-                  <a
-                    href="#"
-                    type="button"
-                    class="text-decoration-none"
-                    aria-label="More Information"
-                    aria-labelledby="#card__primjena"
-                  >
-                    <button class="more-info-btn btn btn-primary">
-                      Opširnije
-                      <i class="fa-solid fa-arrow-right-to-bracket"></i>
-                    </button>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
         <div>
-          <p class="lead mx-auto mt-5 mb-0 fs-4">
-            <span class="text-uppercase">led</span> rasvjeta može uspješno
-            zamijeniti sve dosadašnje tehnologije rasvjete.
-          </p>
-          <p class="lead mx-auto fs-4">
-            Brojne su prednosti &minus; ne samo u uštedi električne energije
-            nego i u mnogim drugim aspektima. Ovdje ćemo pokušati dati neka
-            objašnjenja i sugestije u odabiru
-            <span class="text-uppercase">led</span> rasvjete za nove ili
-            postojeće objekte. Ukoliko započinjete projekt odnosno investiciju u
-            vezi rasvjete ili uštede električne energije na rasvjeti &minus;
-            možete nam postaviti pitanja bez ikakve obaveze.
-          </p>
+          <div class="d-flex ms-4 align-items-center">
+            <i class="fs-3 fa-solid fa-file-arrow-up"></i>
+            <h3 class="m-0 ms-2">Nedavne Objave</h3>
+          </div>
+          <ul class="mt-4">
+            <a href="../pages/" class="text-decoration-none">
+              <li class="mb-2">
+                <i class="fa-solid fa-square-arrow-up-right"></i>
+                <span class="text-uppercase">led</span> rasvjeta na lizing
+              </li>
+            </a>
+            <a href="../pages/" class="text-decoration-none">
+              <li class="mb-2">
+                <i class="fa-solid fa-square-arrow-up-right"></i>
+                <span
+                  >Ruska tvrtka Monocrystal napravila umjetni kristal safira
+                  mase 300kg</span
+                >
+              </li>
+            </a>
+            <a href="../pages/" class="text-decoration-none">
+              <li class="mb-2">
+                <i class="fa-solid fa-square-arrow-up-right"></i>
+                <span>Nobelova nagrada za otkriće plave diode</span>
+              </li>
+            </a>
+          </ul>
         </div>
-      </section>
-    </main>
+        <hr class="mt-5 border border-warning border-1 opacity-25" />
+        <div class="mt-5">
+          <div class="d-flex ms-4 align-items-center">
+            <i class="h3 fa-solid fa-box-archive"></i>
+            <h3 class="ms-2">Arhiva objava</h3>
+          </div>
+          <ul class="mt-4">
+            <a href="../pages/" class="text-decoration-none">
+              <li class="mb-2">
+                <i class="fa-solid fa-square-arrow-up-right"></i>
+                <span>February 2016</span>
+              </li>
+            </a>
+            <a href="../pages/" class="text-decoration-none">
+              <li class="mb-2">
+                <i class="fa-solid fa-square-arrow-up-right"></i>
+                <span>September 2016</span>
+              </li>
+            </a>
+            <a href="../pages/" class="text-decoration-none">
+              <li class="mb-2">
+                <i class="fa-solid fa-square-arrow-up-right"></i>
+                <span>July 2016</span>
+              </li>
+            </a>
+          </ul>
+        </div>
+      </aside>
+    </div>
 
     <!-- Footer -->
 
@@ -553,7 +448,7 @@
       </a>
     </footer>
   </body>
-  <script type="module" src="scripts/main.js"></script>
+  <script type="module" src="../scripts/main.js"></script>
 </html>
 
 <!-- Powered by EnVizion -->
