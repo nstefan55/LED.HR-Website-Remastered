@@ -26,14 +26,6 @@
   border: 2px solid var(--clr-primary);
 }
 
-#news .card-img-top {
-  cursor: pointer;
-}
-
-#news .card > * :not(.card-text) {
-  cursor: pointer;
-}
-
 /* Sidebar */
 
 .sidebar {
@@ -72,27 +64,5 @@
 @media (min-width: 1200px) {
   .sidebar {
     width: 30%;
-  }
-}
-
-@media (max-width: 992px) {
-  #news .col-lg {
-    display: flex;
-    justify-content: center;
-  }
-
-  #news .card {
-    width: 60%;
-  }
-}
-
-@media (max-width: 576px) {
-  #news .col-lg {
-    display: flex;
-    justify-content: center;
-  }
-
-  #news .card {
-    width: 100%;
   }
 }
