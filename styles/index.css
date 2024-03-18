@@ -1,5 +1,12 @@
 /* Hero Showcase */
 
+button.hover:hover {
+  background-color: #000;
+  color: var(--clr-glow);
+
+  border-color: var(--clr-glow);
+}
+
 .hero__background {
   background: linear-gradient(
       90deg,

@@ -37,6 +37,12 @@
     -1px 1px 1px hsla(0, 0%, 0%, 0.264);
 }
 
+/* Fonts */
+
+.f-st-italic {
+  font-style: italic;
+}
+
 /* General Styles */
 
 *,

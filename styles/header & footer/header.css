@@ -65,6 +65,18 @@ nav .nav-link.text-light:hover {
   opacity: 0.8;
 }
 
+/* Navigation Dropdown Active State */
+
+nav .dropdown-item.active {
+  background: var(--clr-glow);
+  color: #000;
+  font-weight: 500;
+}
+
+nav .dropdown-item.active:hover {
+  color: #000;
+}
+
 /* Media Queries */
 
 /* Dropdown Menu Hover on lg screens and above */
