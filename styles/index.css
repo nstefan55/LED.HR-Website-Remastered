@@ -97,4 +97,6 @@ button.hover:hover {
   transform: scale(1.05);
 }
 
-/* Hero Offer */
+#hero__info.padding {
+  padding: 7rem 0;
+}
