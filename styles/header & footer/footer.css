@@ -31,3 +31,9 @@ footer .wrapper {
 .search-input {
   transition: all 0.2s ease-in-out;
 }
+
+@media (min-width: 1600px) {
+  .returnArrow.lg-padding {
+    margin-right: 4rem;
+  }
+}
