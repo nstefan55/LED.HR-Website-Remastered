@@ -21,3 +21,15 @@
 .heading__title {
   font-weight: 600;
 }
+
+/* Hoteli Apartmani */
+
+#hoteli-apartmani .img-border,
+#benzinske-postaje .img-border {
+  border-width: 3px;
+  transition: border-color 0.2s ease;
+}
+#hoteli-apartmani .img-border:hover,
+#benzinske-postaje .img-border:hover {
+  border-color: var(--clr-glow);
+}
