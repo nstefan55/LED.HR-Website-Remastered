@@ -37,6 +37,13 @@
     -1px 1px 1px hsla(0, 0%, 0%, 0.264);
 }
 
+.curs-point {
+  cursor: pointer;
+}
+.curs-none {
+  cursor: default;
+}
+
 /* Fonts */
 
 .f-st-italic {
