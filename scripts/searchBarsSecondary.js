@@ -1,3 +1,3 @@
-import { renderSearchBarSecondary } from "./components/searchBars.js";
+import { renderSearchSecondary } from "./components/searchBars.js";
 
-renderSearchBarSecondary();
+renderSearchSecondary();
