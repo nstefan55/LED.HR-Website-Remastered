@@ -29,6 +29,23 @@ export function renderSearchPrimary() {
       "monocrystal ruska tvrtka proizvela umjetni kristal",
       "nobelova nagrada za otkriće plave diode",
       "arhiva objava 2016.",
+      "hoteli i apartmani",
+      "benzinske postaje",
+      "mini marketi",
+      "trgovački centri",
+      "uredi",
+      "ljekarne",
+      "saloni",
+      "industrijska led rasvjeta",
+      "obrti i radione",
+      "sportski tereni",
+      "osiguranje objekata",
+      "bazeni i fontane",
+      "ulična i parking rasvjeta",
+      "kućna rasvjeta",
+      "vozila",
+      "plovila",
+      "farme",
     ];
 
     const resultBox = document.getElementById("suggestionBox");
@@ -68,22 +85,12 @@ export function renderSearchPrimary() {
       switch (keyword) {
         case "led":
         case "sto je led":
+        case "što je led":
         case "sto je led rasvjeta":
+        case "što je led rasvjeta":
         case "led rasvjeta":
           window.location.href = ".././pages/led.html";
           break; //works !
-
-        case "primjena":
-        case "primjena rasvjete":
-        case "primjena led rasvjete":
-          window.location.href = ".././pages/primjena-led-rasvjete.html";
-          break; //works!
-
-        case "led proizvodi":
-        case "proizvodi":
-        case "svi proizvodi":
-          window.location.href = ".././pages/led-proizvodi.html";
-          break;
 
         case "prednosti":
         case "prednosti led":
@@ -92,6 +99,7 @@ export function renderSearchPrimary() {
           break; //works!
 
         case "česta pitanja":
+        case "cesta pitanja":
         case "pitanja":
           window.location.href = ".././pages/česta-pitanja.html";
           break; //works!
@@ -100,6 +108,144 @@ export function renderSearchPrimary() {
         case "novosti led":
         case "novosti led rasvjete":
           window.location.href = ".././pages/novosti-iz-led-tehnologije.html";
+          break;
+
+        case "primjena":
+        case "primjena rasvjete":
+        case "primjena led rasvjete":
+          window.location.href = ".././pages/primjena-led-rasvjete.html";
+          break; //works!
+
+        case "hoteli":
+        case "apartmani":
+        case "hoteli apartmani":
+        case "hoteli i apartmani":
+        case "primjena hotela i apartmana":
+        case "primjena hotela apartmana":
+        case "primjena hotela":
+        case "primjena apartmana":
+          window.location.href =
+            ".././pages/primjena-led-rasvjete/hoteli-i-apartmani.html";
+
+        case "benzinske postaje":
+        case "benzinske":
+        case "primjena benzinske postaje":
+          window.location.href =
+            ".././pages/primjena-led-rasvjete/benzinske-postaje.html";
+
+        case "mini marketi":
+        case "mini":
+        case "marketi":
+        case "primjena mini marketa":
+          window.location.href =
+            ".././pages/primjena-led-rasvjete/mini-marketi.html";
+
+        case "trgovacki centri":
+        case "trgovacki":
+        case "centri":
+        case "primjena trgovackih centara":
+        case "primjena trgovackih":
+        case "primjena centara":
+          window.location.href =
+            ".././pages/primjena-led-rasvjete/trgovacki-centri.html";
+
+        case "uredi":
+        case "primjena ureda":
+          window.location.href = ".././pages/primjena-led-rasvjete/uredi.html";
+
+        case "ljekarne":
+        case "primjena ljekarni":
+          window.location.href =
+            ".././pages/primjena-led-rasvjete/ljekarne.html";
+
+        case "saloni":
+        case "primjena salona":
+          window.location.href = ".././pages/primjena-led-rasvjete/saloni.html";
+
+        case "industrijska led rasvjeta":
+        case "primjena industrijske led rasvjete":
+        case "primjena industrijske led":
+        case "primjena industrijske rasvjete":
+        case "primjena industrijske":
+          window.location.href =
+            ".././pages/primjena-led-rasvjete/industrijska-led-rasvjeta.html";
+
+        case "obrti":
+        case "radione":
+        case "obrti radione":
+        case "obrti i radione":
+        case "primjena obrta i radiona":
+        case "primjena obrta radiona":
+        case "primjena obrta":
+        case "primjena radiona":
+          window.location.href =
+            ".././pages/primjena-led-rasvjete/obrti-i-radione.html";
+
+        case "sportski tereni":
+        case "sportski":
+        case "tereni":
+        case "primjena sportskih terena":
+        case "primjena sportskih":
+        case "primjena terena":
+          window.location.href =
+            ".././pages/primjena-led-rasvjete/sportski-tereni.html";
+
+        case "osiguranje objekata":
+        case "osiguranje":
+        case "primjena osiguranja objekata":
+        case "primjena osiguranja":
+        case "primjena objekata":
+          window.location.href =
+            ".././pages/primjena-led-rasvjete/osiguranje-objekata.html";
+
+        case "bazeni":
+        case "fontane":
+        case "bazeni fontane":
+        case "bazeni i fontane":
+        case "primjena bazena i fontana":
+        case "primjena bazena fontana":
+        case "primjena bazena":
+        case "primjena fontana":
+          window.location.href =
+            ".././pages/primjena-led-rasvjete/bazeni-i-fontane.html";
+
+        case "primjena ulične i parking rasvjete":
+        case "primjena ulicne i parking rasvjete":
+        case "primjena ulične i parking":
+        case "primjena ulicne i parking":
+        case "primjena ulične rasvjete":
+        case "primjena ulicne rasvjete":
+        case "primjena parking rasvjete":
+        case "primjena ulična":
+        case "primjena ulicna":
+        case "primjena parking":
+          window.location.href =
+            ".././pages/primjena-led-rasvjete/ulična-i-parking-rasvjeta.html";
+
+        case "kućna rasvjeta":
+        case "kucna rasvjeta":
+        case "primjena kućne rasvjete":
+        case "primjena kucne rasvjete":
+          window.location.href =
+            "../../pages/primjena-led-rasvjete/kućna-rasvjeta.html";
+
+        case "vozila":
+        case "primjena vozila":
+          window.location.href = ".././pages/primjena-led-rasvjete/vozila.html";
+
+        case "plovila":
+        case "primjena plovila":
+          window.location.href =
+            "../../pages/primjena-led-rasvjete/plovila.html";
+
+        case "farme":
+        case "primjena farme":
+          window.location.href = ".././pages/primjena-led-rasvjete/farme.html";
+
+        case "led proizvodi":
+        case "proizvodi":
+        case "svi proizvodi":
+          window.location.href = ".././pages/led-proizvodi.html";
           break;
 
         case "led reflektori":
@@ -113,9 +259,13 @@ export function renderSearchPrimary() {
           break;
 
         case "ulična rasvjeta":
+        case "ulicna rasvjeta":
         case "ulična led rasvjeta":
+        case "ulicna led rasvjeta":
+        case "ulična led":
         case "ulična led":
         case "ulična":
+        case "ulicna":
           window.location.href =
             ".././pages/led-proizvodi/ulična-led-rasvjeta.html";
           break;
@@ -147,7 +297,9 @@ export function renderSearchPrimary() {
           break;
 
         case "led žarulje":
+        case "led zarulje":
         case "žarulje":
+        case "zarulje":
           window.location.href = ".././pages/led-proizvodi/led-žarulje.html";
           break;
 
@@ -198,6 +350,7 @@ export function renderSearchPrimary() {
           break; //works!
 
         case "otkriće plave diode":
+        case "otkrice plave diode":
         case "plava dioda":
         case "nobelova nagrada":
         case "dioda nobelova nagrada":
@@ -215,7 +368,7 @@ export function renderSearchPrimary() {
       }
     }
   }
-  function renderSearchBar2() {
+  function renderSearchBar1() {
     const searchBarInput = document.getElementById("search-bar-2");
     const searchBarButton = document.getElementById("search-button-2");
 
@@ -245,6 +398,23 @@ export function renderSearchPrimary() {
       "monocrystal ruska tvrtka proizvela umjetni kristal",
       "nobelova nagrada za otkriće plave diode",
       "arhiva objava 2016.",
+      "hoteli i apartmani",
+      "benzinske postaje",
+      "mini marketi",
+      "trgovački centri",
+      "uredi",
+      "ljekarne",
+      "saloni",
+      "industrijska led rasvjeta",
+      "obrti i radione",
+      "sportski tereni",
+      "osiguranje objekata",
+      "bazeni i fontane",
+      "ulična i parking rasvjeta",
+      "kućna rasvjeta",
+      "vozila",
+      "plovila",
+      "farme",
     ];
 
     const resultBox = document.getElementById("suggestionBox-2");
@@ -284,22 +454,12 @@ export function renderSearchPrimary() {
       switch (keyword) {
         case "led":
         case "sto je led":
+        case "što je led":
         case "sto je led rasvjeta":
+        case "što je led rasvjeta":
         case "led rasvjeta":
           window.location.href = ".././pages/led.html";
           break; //works !
-
-        case "primjena":
-        case "primjena rasvjete":
-        case "primjena led rasvjete":
-          window.location.href = ".././pages/primjena-led-rasvjete.html";
-          break; //works!
-
-        case "led proizvodi":
-        case "proizvodi":
-        case "svi proizvodi":
-          window.location.href = ".././pages/led-proizvodi.html";
-          break;
 
         case "prednosti":
         case "prednosti led":
@@ -308,6 +468,7 @@ export function renderSearchPrimary() {
           break; //works!
 
         case "česta pitanja":
+        case "cesta pitanja":
         case "pitanja":
           window.location.href = ".././pages/česta-pitanja.html";
           break; //works!
@@ -316,6 +477,144 @@ export function renderSearchPrimary() {
         case "novosti led":
         case "novosti led rasvjete":
           window.location.href = ".././pages/novosti-iz-led-tehnologije.html";
+          break;
+
+        case "primjena":
+        case "primjena rasvjete":
+        case "primjena led rasvjete":
+          window.location.href = ".././pages/primjena-led-rasvjete.html";
+          break; //works!
+
+        case "hoteli":
+        case "apartmani":
+        case "hoteli apartmani":
+        case "hoteli i apartmani":
+        case "primjena hotela i apartmana":
+        case "primjena hotela apartmana":
+        case "primjena hotela":
+        case "primjena apartmana":
+          window.location.href =
+            ".././pages/primjena-led-rasvjete/hoteli-i-apartmani.html";
+
+        case "benzinske postaje":
+        case "benzinske":
+        case "primjena benzinske postaje":
+          window.location.href =
+            ".././pages/primjena-led-rasvjete/benzinske-postaje.html";
+
+        case "mini marketi":
+        case "mini":
+        case "marketi":
+        case "primjena mini marketa":
+          window.location.href =
+            ".././pages/primjena-led-rasvjete/mini-marketi.html";
+
+        case "trgovacki centri":
+        case "trgovacki":
+        case "centri":
+        case "primjena trgovackih centara":
+        case "primjena trgovackih":
+        case "primjena centara":
+          window.location.href =
+            ".././pages/primjena-led-rasvjete/trgovacki-centri.html";
+
+        case "uredi":
+        case "primjena ureda":
+          window.location.href = ".././pages/primjena-led-rasvjete/uredi.html";
+
+        case "ljekarne":
+        case "primjena ljekarni":
+          window.location.href =
+            ".././pages/primjena-led-rasvjete/ljekarne.html";
+
+        case "saloni":
+        case "primjena salona":
+          window.location.href = ".././pages/primjena-led-rasvjete/saloni.html";
+
+        case "industrijska led rasvjeta":
+        case "primjena industrijske led rasvjete":
+        case "primjena industrijske led":
+        case "primjena industrijske rasvjete":
+        case "primjena industrijske":
+          window.location.href =
+            ".././pages/primjena-led-rasvjete/industrijska-led-rasvjeta.html";
+
+        case "obrti":
+        case "radione":
+        case "obrti radione":
+        case "obrti i radione":
+        case "primjena obrta i radiona":
+        case "primjena obrta radiona":
+        case "primjena obrta":
+        case "primjena radiona":
+          window.location.href =
+            ".././pages/primjena-led-rasvjete/obrti-i-radione.html";
+
+        case "sportski tereni":
+        case "sportski":
+        case "tereni":
+        case "primjena sportskih terena":
+        case "primjena sportskih":
+        case "primjena terena":
+          window.location.href =
+            ".././pages/primjena-led-rasvjete/sportski-tereni.html";
+
+        case "osiguranje objekata":
+        case "osiguranje":
+        case "primjena osiguranja objekata":
+        case "primjena osiguranja":
+        case "primjena objekata":
+          window.location.href =
+            ".././pages/primjena-led-rasvjete/osiguranje-objekata.html";
+
+        case "bazeni":
+        case "fontane":
+        case "bazeni fontane":
+        case "bazeni i fontane":
+        case "primjena bazena i fontana":
+        case "primjena bazena fontana":
+        case "primjena bazena":
+        case "primjena fontana":
+          window.location.href =
+            ".././pages/primjena-led-rasvjete/bazeni-i-fontane.html";
+
+        case "primjena ulične i parking rasvjete":
+        case "primjena ulicne i parking rasvjete":
+        case "primjena ulične i parking":
+        case "primjena ulicne i parking":
+        case "primjena ulične rasvjete":
+        case "primjena ulicne rasvjete":
+        case "primjena parking rasvjete":
+        case "primjena ulična":
+        case "primjena ulicna":
+        case "primjena parking":
+          window.location.href =
+            ".././pages/primjena-led-rasvjete/ulična-i-parking-rasvjeta.html";
+
+        case "kućna rasvjeta":
+        case "kucna rasvjeta":
+        case "primjena kućne rasvjete":
+        case "primjena kucne rasvjete":
+          window.location.href =
+            "../../pages/primjena-led-rasvjete/kućna-rasvjeta.html";
+
+        case "vozila":
+        case "primjena vozila":
+          window.location.href = ".././pages/primjena-led-rasvjete/vozila.html";
+
+        case "plovila":
+        case "primjena plovila":
+          window.location.href =
+            "../../pages/primjena-led-rasvjete/plovila.html";
+
+        case "farme":
+        case "primjena farme":
+          window.location.href = ".././pages/primjena-led-rasvjete/farme.html";
+
+        case "led proizvodi":
+        case "proizvodi":
+        case "svi proizvodi":
+          window.location.href = ".././pages/led-proizvodi.html";
           break;
 
         case "led reflektori":
@@ -329,9 +628,13 @@ export function renderSearchPrimary() {
           break;
 
         case "ulična rasvjeta":
+        case "ulicna rasvjeta":
         case "ulična led rasvjeta":
+        case "ulicna led rasvjeta":
+        case "ulična led":
         case "ulična led":
         case "ulična":
+        case "ulicna":
           window.location.href =
             ".././pages/led-proizvodi/ulična-led-rasvjeta.html";
           break;
@@ -363,7 +666,9 @@ export function renderSearchPrimary() {
           break;
 
         case "led žarulje":
+        case "led zarulje":
         case "žarulje":
+        case "zarulje":
           window.location.href = ".././pages/led-proizvodi/led-žarulje.html";
           break;
 
@@ -414,6 +719,7 @@ export function renderSearchPrimary() {
           break; //works!
 
         case "otkriće plave diode":
+        case "otkrice plave diode":
         case "plava dioda":
         case "nobelova nagrada":
         case "dioda nobelova nagrada":
@@ -467,6 +773,23 @@ export function renderSearchBarSecondary() {
       "monocrystal ruska tvrtka proizvela umjetni kristal",
       "nobelova nagrada za otkriće plave diode",
       "arhiva objava 2016.",
+      "hoteli i apartmani",
+      "benzinske postaje",
+      "mini marketi",
+      "trgovački centri",
+      "uredi",
+      "ljekarne",
+      "saloni",
+      "industrijska led rasvjeta",
+      "obrti i radione",
+      "sportski tereni",
+      "osiguranje objekata",
+      "bazeni i fontane",
+      "ulična i parking rasvjeta",
+      "kućna rasvjeta",
+      "vozila",
+      "plovila",
+      "farme",
     ];
 
     const resultBox = document.getElementById("suggestionBox");
@@ -506,22 +829,12 @@ export function renderSearchBarSecondary() {
       switch (keyword) {
         case "led":
         case "sto je led":
+        case "što je led":
         case "sto je led rasvjeta":
+        case "što je led rasvjeta":
         case "led rasvjeta":
           window.location.href = "../../pages/led.html";
           break; //works !
-
-        case "primjena":
-        case "primjena rasvjete":
-        case "primjena led rasvjete":
-          window.location.href = "../../pages/primjena-led-rasvjete.html";
-          break; //works!
-
-        case "led proizvodi":
-        case "proizvodi":
-        case "svi proizvodi":
-          window.location.href = "../../pages/led-proizvodi.html";
-          break;
 
         case "prednosti":
         case "prednosti led":
@@ -530,14 +843,155 @@ export function renderSearchBarSecondary() {
           break; //works!
 
         case "česta pitanja":
+        case "cesta pitanja":
         case "pitanja":
-          window.location.href = "../../pages/česta-pitanja.html";
+          window.location.href = ".././pages/česta-pitanja.html";
           break; //works!
 
         case "novosti":
         case "novosti led":
         case "novosti led rasvjete":
           window.location.href = "../../pages/novosti-iz-led-tehnologije.html";
+          break;
+
+        case "primjena":
+        case "primjena rasvjete":
+        case "primjena led rasvjete":
+          window.location.href = "../../pages/primjena-led-rasvjete.html";
+          break; //works!
+
+        case "hoteli":
+        case "apartmani":
+        case "hoteli apartmani":
+        case "hoteli i apartmani":
+        case "primjena hotela i apartmana":
+        case "primjena hotela apartmana":
+        case "primjena hotela":
+        case "primjena apartmana":
+          window.location.href =
+            "../../pages/primjena-led-rasvjete/hoteli-i-apartmani.html";
+
+        case "benzinske postaje":
+        case "benzinske":
+        case "primjena benzinske postaje":
+          window.location.href =
+            "../../pages/primjena-led-rasvjete/benzinske-postaje.html";
+
+        case "mini marketi":
+        case "mini":
+        case "marketi":
+        case "primjena mini marketa":
+          window.location.href =
+            "../../pages/primjena-led-rasvjete/mini-marketi.html";
+
+        case "trgovacki centri":
+        case "trgovacki":
+        case "centri":
+        case "primjena trgovackih centara":
+        case "primjena trgovackih":
+        case "primjena centara":
+          window.location.href =
+            "../../pages/primjena-led-rasvjete/trgovacki-centri.html";
+
+        case "uredi":
+        case "primjena ureda":
+          window.location.href = "../../pages/primjena-led-rasvjete/uredi.html";
+
+        case "ljekarne":
+        case "primjena ljekarni":
+          window.location.href =
+            "../../pages/primjena-led-rasvjete/ljekarne.html";
+
+        case "saloni":
+        case "primjena salona":
+          window.location.href =
+            "../../pages/primjena-led-rasvjete/saloni.html";
+
+        case "industrijska led rasvjeta":
+        case "primjena industrijske led rasvjete":
+        case "primjena industrijske led":
+        case "primjena industrijske rasvjete":
+        case "primjena industrijske":
+          window.location.href =
+            "../../pages/primjena-led-rasvjete/industrijska-led-rasvjeta.html";
+
+        case "obrti":
+        case "radione":
+        case "obrti radione":
+        case "obrti i radione":
+        case "primjena obrta i radiona":
+        case "primjena obrta radiona":
+        case "primjena obrta":
+        case "primjena radiona":
+          window.location.href =
+            "../../pages/primjena-led-rasvjete/obrti-i-radione.html";
+
+        case "sportski tereni":
+        case "sportski":
+        case "tereni":
+        case "primjena sportskih terena":
+        case "primjena sportskih":
+        case "primjena terena":
+          window.location.href =
+            "../../pages/primjena-led-rasvjete/sportski-tereni.html";
+
+        case "osiguranje objekata":
+        case "osiguranje":
+        case "primjena osiguranja objekata":
+        case "primjena osiguranja":
+        case "primjena objekata":
+          window.location.href =
+            "../../pages/primjena-led-rasvjete/osiguranje-objekata.html";
+
+        case "bazeni":
+        case "fontane":
+        case "bazeni fontane":
+        case "bazeni i fontane":
+        case "primjena bazena i fontana":
+        case "primjena bazena fontana":
+        case "primjena bazena":
+        case "primjena fontana":
+          window.location.href =
+            "../../pages/primjena-led-rasvjete/bazeni-i-fontane.html";
+
+        case "primjena ulične i parking rasvjete":
+        case "primjena ulicne i parking rasvjete":
+        case "primjena ulične i parking":
+        case "primjena ulicne i parking":
+        case "primjena ulične rasvjete":
+        case "primjena ulicne rasvjete":
+        case "primjena parking rasvjete":
+        case "primjena ulična":
+        case "primjena ulicna":
+        case "primjena parking":
+          window.location.href =
+            "../../pages/primjena-led-rasvjete/ulična-i-parking-rasvjeta.html";
+
+        case "kućna rasvjeta":
+        case "kucna rasvjeta":
+        case "primjena kućne rasvjete":
+        case "primjena kucne rasvjete":
+          window.location.href =
+            "../../pages/primjena-led-rasvjete/kućna-rasvjeta.html";
+
+        case "vozila":
+        case "primjena vozila":
+          window.location.href =
+            "../../pages/primjena-led-rasvjete/vozila.html";
+
+        case "plovila":
+        case "primjena plovila":
+          window.location.href =
+            "../../pages/primjena-led-rasvjete/plovila.html";
+
+        case "farme":
+        case "primjena farme":
+          window.location.href = "../../pages/primjena-led-rasvjete/farme.html";
+
+        case "led proizvodi":
+        case "proizvodi":
+        case "svi proizvodi":
+          window.location.href = "../../pages/led-proizvodi.html";
           break;
 
         case "led reflektori":
@@ -552,9 +1006,13 @@ export function renderSearchBarSecondary() {
           break;
 
         case "ulična rasvjeta":
+        case "ulicna rasvjeta":
         case "ulična led rasvjeta":
+        case "ulicna led rasvjeta":
+        case "ulična led":
         case "ulična led":
         case "ulična":
+        case "ulicna":
           window.location.href =
             "../../pages/led-proizvodi/ulična-led-rasvjeta.html";
           break;
@@ -586,7 +1044,9 @@ export function renderSearchBarSecondary() {
           break;
 
         case "led žarulje":
+        case "led zarulje":
         case "žarulje":
+        case "zarulje":
           window.location.href = "../../pages/led-proizvodi/led-žarulje.html";
           break;
 
@@ -637,6 +1097,7 @@ export function renderSearchBarSecondary() {
           break; //works!
 
         case "otkriće plave diode":
+        case "otkrice plave diode":
         case "plava dioda":
         case "nobelova nagrada":
         case "dioda nobelova nagrada":
@@ -684,6 +1145,23 @@ export function renderSearchBarSecondary() {
       "monocrystal ruska tvrtka proizvela umjetni kristal",
       "nobelova nagrada za otkriće plave diode",
       "arhiva objava 2016.",
+      "hoteli i apartmani",
+      "benzinske postaje",
+      "mini marketi",
+      "trgovački centri",
+      "uredi",
+      "ljekarne",
+      "saloni",
+      "industrijska led rasvjeta",
+      "obrti i radione",
+      "sportski tereni",
+      "osiguranje objekata",
+      "bazeni i fontane",
+      "ulična i parking rasvjeta",
+      "kućna rasvjeta",
+      "vozila",
+      "plovila",
+      "farme",
     ];
 
     const resultBox = document.getElementById("suggestionBox-2");
@@ -723,22 +1201,12 @@ export function renderSearchBarSecondary() {
       switch (keyword) {
         case "led":
         case "sto je led":
+        case "što je led":
         case "sto je led rasvjeta":
+        case "što je led rasvjeta":
         case "led rasvjeta":
           window.location.href = "../../pages/led.html";
           break; //works !
-
-        case "primjena":
-        case "primjena rasvjete":
-        case "primjena led rasvjete":
-          window.location.href = "../../pages/primjena-led-rasvjete.html";
-          break; //works!
-
-        case "led proizvodi":
-        case "proizvodi":
-        case "svi proizvodi":
-          window.location.href = "../../pages/led-proizvodi.html";
-          break;
 
         case "prednosti":
         case "prednosti led":
@@ -747,6 +1215,7 @@ export function renderSearchBarSecondary() {
           break; //works!
 
         case "česta pitanja":
+        case "cesta pitanja":
         case "pitanja":
           window.location.href = ".././pages/česta-pitanja.html";
           break; //works!
@@ -755,6 +1224,146 @@ export function renderSearchBarSecondary() {
         case "novosti led":
         case "novosti led rasvjete":
           window.location.href = "../../pages/novosti-iz-led-tehnologije.html";
+          break;
+
+        case "primjena":
+        case "primjena rasvjete":
+        case "primjena led rasvjete":
+          window.location.href = "../../pages/primjena-led-rasvjete.html";
+          break; //works!
+
+        case "hoteli":
+        case "apartmani":
+        case "hoteli apartmani":
+        case "hoteli i apartmani":
+        case "primjena hotela i apartmana":
+        case "primjena hotela apartmana":
+        case "primjena hotela":
+        case "primjena apartmana":
+          window.location.href =
+            "../../pages/primjena-led-rasvjete/hoteli-i-apartmani.html";
+
+        case "benzinske postaje":
+        case "benzinske":
+        case "primjena benzinske postaje":
+          window.location.href =
+            "../../pages/primjena-led-rasvjete/benzinske-postaje.html";
+
+        case "mini marketi":
+        case "mini":
+        case "marketi":
+        case "primjena mini marketa":
+          window.location.href =
+            "../../pages/primjena-led-rasvjete/mini-marketi.html";
+
+        case "trgovacki centri":
+        case "trgovacki":
+        case "centri":
+        case "primjena trgovackih centara":
+        case "primjena trgovackih":
+        case "primjena centara":
+          window.location.href =
+            "../../pages/primjena-led-rasvjete/trgovacki-centri.html";
+
+        case "uredi":
+        case "primjena ureda":
+          window.location.href = "../../pages/primjena-led-rasvjete/uredi.html";
+
+        case "ljekarne":
+        case "primjena ljekarni":
+          window.location.href =
+            "../../pages/primjena-led-rasvjete/ljekarne.html";
+
+        case "saloni":
+        case "primjena salona":
+          window.location.href =
+            "../../pages/primjena-led-rasvjete/saloni.html";
+
+        case "industrijska led rasvjeta":
+        case "primjena industrijske led rasvjete":
+        case "primjena industrijske led":
+        case "primjena industrijske rasvjete":
+        case "primjena industrijske":
+          window.location.href =
+            "../../pages/primjena-led-rasvjete/industrijska-led-rasvjeta.html";
+
+        case "obrti":
+        case "radione":
+        case "obrti radione":
+        case "obrti i radione":
+        case "primjena obrta i radiona":
+        case "primjena obrta radiona":
+        case "primjena obrta":
+        case "primjena radiona":
+          window.location.href =
+            "../../pages/primjena-led-rasvjete/obrti-i-radione.html";
+
+        case "sportski tereni":
+        case "sportski":
+        case "tereni":
+        case "primjena sportskih terena":
+        case "primjena sportskih":
+        case "primjena terena":
+          window.location.href =
+            "../../pages/primjena-led-rasvjete/sportski-tereni.html";
+
+        case "osiguranje objekata":
+        case "osiguranje":
+        case "primjena osiguranja objekata":
+        case "primjena osiguranja":
+        case "primjena objekata":
+          window.location.href =
+            "../../pages/primjena-led-rasvjete/osiguranje-objekata.html";
+
+        case "bazeni":
+        case "fontane":
+        case "bazeni fontane":
+        case "bazeni i fontane":
+        case "primjena bazena i fontana":
+        case "primjena bazena fontana":
+        case "primjena bazena":
+        case "primjena fontana":
+          window.location.href =
+            "../../pages/primjena-led-rasvjete/bazeni-i-fontane.html";
+
+        case "primjena ulične i parking rasvjete":
+        case "primjena ulicne i parking rasvjete":
+        case "primjena ulične i parking":
+        case "primjena ulicne i parking":
+        case "primjena ulične rasvjete":
+        case "primjena ulicne rasvjete":
+        case "primjena parking rasvjete":
+        case "primjena ulična":
+        case "primjena ulicna":
+        case "primjena parking":
+          window.location.href =
+            "../../pages/primjena-led-rasvjete/ulična-i-parking-rasvjeta.html";
+
+        case "kućna rasvjeta":
+        case "kucna rasvjeta":
+        case "primjena kućne rasvjete":
+        case "primjena kucne rasvjete":
+          window.location.href =
+            "../../pages/primjena-led-rasvjete/kućna-rasvjeta.html";
+
+        case "vozila":
+        case "primjena vozila":
+          window.location.href =
+            "../../pages/primjena-led-rasvjete/vozila.html";
+
+        case "plovila":
+        case "primjena plovila":
+          window.location.href =
+            "../../pages/primjena-led-rasvjete/plovila.html";
+
+        case "farme":
+        case "primjena farme":
+          window.location.href = "../../pages/primjena-led-rasvjete/farme.html";
+
+        case "led proizvodi":
+        case "proizvodi":
+        case "svi proizvodi":
+          window.location.href = "../../pages/led-proizvodi.html";
           break;
 
         case "led reflektori":
@@ -769,9 +1378,13 @@ export function renderSearchBarSecondary() {
           break;
 
         case "ulična rasvjeta":
+        case "ulicna rasvjeta":
         case "ulična led rasvjeta":
+        case "ulicna led rasvjeta":
+        case "ulična led":
         case "ulična led":
         case "ulična":
+        case "ulicna":
           window.location.href =
             "../../pages/led-proizvodi/ulična-led-rasvjeta.html";
           break;
@@ -803,7 +1416,9 @@ export function renderSearchBarSecondary() {
           break;
 
         case "led žarulje":
+        case "led zarulje":
         case "žarulje":
+        case "zarulje":
           window.location.href = "../../pages/led-proizvodi/led-žarulje.html";
           break;
 
@@ -854,6 +1469,7 @@ export function renderSearchBarSecondary() {
           break; //works!
 
         case "otkriće plave diode":
+        case "otkrice plave diode":
         case "plava dioda":
         case "nobelova nagrada":
         case "dioda nobelova nagrada":
