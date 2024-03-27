@@ -44,6 +44,11 @@
   cursor: default;
 }
 
+.no-border {
+  border: none;
+  background-color: #fff;
+}
+
 /* Fonts */
 
 .f-st-italic {

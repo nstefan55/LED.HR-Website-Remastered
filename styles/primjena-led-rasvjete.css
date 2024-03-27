@@ -22,14 +22,22 @@
   font-weight: 600;
 }
 
-/* Hoteli Apartmani */
-
 #hoteli-apartmani .img-border,
-#benzinske-postaje .img-border {
+#benzinske-postaje .img-border,
+#uredi .img-border,
+#ljekarne .img-border,
+#saloni .img-border,
+#obrti-radione .img-border,
+#sportski-tereni .img-border {
   border-width: 3px;
   transition: border-color 0.2s ease;
 }
 #hoteli-apartmani .img-border:hover,
-#benzinske-postaje .img-border:hover {
+#benzinske-postaje .img-border:hover,
+#uredi .img-border:hover,
+#ljekarne .img-border:hover,
+#saloni .img-border:hover,
+#obrti-radione .img-border:hover,
+#sportski-tereni .img-border:hover {
   border-color: var(--clr-glow);
 }
