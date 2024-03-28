@@ -28,7 +28,8 @@
 #ljekarne .img-border,
 #saloni .img-border,
 #obrti-radione .img-border,
-#sportski-tereni .img-border {
+#sportski-tereni .img-border,
+#osiguranje-objekata .img-border {
   border-width: 3px;
   transition: border-color 0.2s ease;
 }
@@ -38,6 +39,7 @@
 #ljekarne .img-border:hover,
 #saloni .img-border:hover,
 #obrti-radione .img-border:hover,
-#sportski-tereni .img-border:hover {
+#sportski-tereni .img-border:hover,
+#osiguranje-objekata .img-border:hover {
   border-color: var(--clr-glow);
 }
