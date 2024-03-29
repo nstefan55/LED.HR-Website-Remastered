@@ -37,6 +37,11 @@
     -1px 1px 1px hsla(0, 0%, 0%, 0.264);
 }
 
+.box-shadow-4 {
+  -webkit-box-shadow: 0 0 10px #00000028;
+  box-shadow: 0 0 10px #00000028;
+}
+
 .curs-point {
   cursor: pointer;
 }

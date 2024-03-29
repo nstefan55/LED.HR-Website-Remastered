@@ -1,0 +1,23 @@
+/* Nav Page */
+
+.page-nav {
+  margin-top: 8rem;
+}
+
+.breadcrumb-link {
+  text-decoration: none;
+  font-weight: 600;
+
+  border-left: 2px solid var(--clr-secondary);
+  padding-left: 10px;
+}
+
+.underline {
+  text-decoration: underline;
+  text-decoration-color: var(--clr-glow);
+  text-underline-offset: 6px;
+}
+
+#vazne-karakteristike .card-border {
+  border: 3px solid var(--clr-glow);
+}
