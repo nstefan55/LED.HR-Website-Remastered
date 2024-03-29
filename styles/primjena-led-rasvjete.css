@@ -29,7 +29,12 @@
 #saloni .img-border,
 #obrti-radione .img-border,
 #sportski-tereni .img-border,
-#osiguranje-objekata .img-border {
+#osiguranje-objekata .img-border,
+#bazeni-fontane .img-border,
+#ulična-parking-rasvjeta .img-border,
+#vozila .img-border,
+#plovila .img-border,
+#farme .img-border {
   border-width: 3px;
   transition: border-color 0.2s ease;
 }
@@ -40,6 +45,33 @@
 #saloni .img-border:hover,
 #obrti-radione .img-border:hover,
 #sportski-tereni .img-border:hover,
-#osiguranje-objekata .img-border:hover {
+#osiguranje-objekata .img-border:hover,
+#bazeni-fontane .img-border:hover,
+#ulična-parking-rasvjeta .img-border:hover,
+#vozila .img-border:hover,
+#plovila .img-border:hover,
+#farme .img-border:hover {
   border-color: var(--clr-glow);
+}
+
+#vozila #more-info a.custom-link,
+#plovila #more-info a.custom-link,
+#farme #more-info a.custom-link {
+  background-color: var(--clr-glow);
+  color: #000;
+  transition: all 0.2s ease;
+}
+
+#vozila #more-info a.custom-link:hover,
+#plovila #more-info a.custom-link:hover,
+#farme #more-info a.custom-link:hover {
+  background-color: #000;
+  color: var(--clr-glow);
+}
+
+#vozila #more-info span.custom-link,
+#plovila #more-info span.custom-link,
+#farme #more-info span.custom-link {
+  background-color: var(--clr-glow);
+  color: #000;
 }
