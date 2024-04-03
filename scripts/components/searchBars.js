@@ -1022,7 +1022,10 @@ export function renderSearchPrimary() {
   }
 
   renderSearchBar1();
-  renderSearchBar2();
+  const searchBar2Exists = document.getElementById("search-bar-2");
+  if (searchBar2Exists) {
+    renderSearchBar2();
+  }
 }
 
 export function renderSearchSecondary() {
@@ -2022,5 +2025,9 @@ export function renderSearchSecondary() {
   }
 
   renderSearchBar1();
-  renderSearchBar2();
+
+  const searchBar2Exists = document.getElementById("search-bar-2");
+  if (searchBar2Exists) {
+    renderSearchBar2();
+  }
 }
